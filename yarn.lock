@@ -59,9 +59,9 @@
     hardhat-watcher "^2.1.1"
 
 "@atleta-chain/universal-router@^1.6.2":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@atleta-chain/universal-router/-/universal-router-1.6.3.tgz#09a4d404c0e8e52df27e137d8e460ecc8aca26d4"
-  integrity sha512-tdVxMqqlXJa0b/SSSzxjpD63nTPUB+nRcb7JRQ0Z80PecWzZehw/LidOCIbvUWRLzWDSyliTrnMxhOK5lTYf0Q==
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@atleta-chain/universal-router/-/universal-router-1.6.4.tgz#cb7b16f70a11ef4097cc222c1d1565bbdf840398"
+  integrity sha512-hLBEKHo+F0aZr0j+dI70/nJ+DLZucvK8GREjnq/2W1BdqMx0oEyz8Z8teSZJJ/P6qf68+wy7ht81uf74LkKIvw==
   dependencies:
     "@atleta-chain/router-sdk" "^1.9.1"
     "@atleta-chain/v2-core" "^1.0.1"
@@ -3043,9 +3043,9 @@ camelcase@^6.0.0, camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001587:
-  version "1.0.30001610"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001610.tgz#2f44ed6e21d359e914271ae35b68903632628ccf"
-  integrity sha512-QFutAY4NgaelojVMjY63o6XlZyORPaLfyMnsl3HgnWdJUcX6K0oaJymHjH8PT5Gk7sTm8rvC/c5COUQKXqmOMA==
+  version "1.0.30001611"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001611.tgz#4dbe78935b65851c2d2df1868af39f709a93a96e"
+  integrity sha512-19NuN1/3PjA3QI8Eki55N8my4LzfkMCRLgCVfrl/slbSAchQfV0+GwjPrK3rq37As4UCLlM/DHajbKkAqbv92Q==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3644,9 +3644,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.4.668:
-  version "1.4.738"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.738.tgz#9a7fca98abaee61e20c9c25013d5ce60bb533436"
-  integrity sha512-lwKft2CLFztD+vEIpesrOtCrko/TFnEJlHFdRhazU7Y/jx5qc4cqsocfVrBg4So4gGe9lvxnbLIoev47WMpg+A==
+  version "1.4.740"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.740.tgz#89c82421332ee425e5b193e3db2dea019d423419"
+  integrity sha512-Yvg5i+iyv7Xm18BRdVPVm8lc7kgxM3r6iwqCH2zB7QZy1kZRNmd0Zqm0zcD9XoFREE5/5rwIuIAOT+/mzGcnZg==
 
 elliptic@6.5.4:
   version "6.5.4"
