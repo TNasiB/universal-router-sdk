@@ -34,15 +34,15 @@
     "@atleta-chain/v3-sdk" "^3.11.4"
     "@ethersproject/abi" "^5.5.0"
 
-"@atleta-chain/router-sdk@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@atleta-chain/router-sdk/-/router-sdk-1.9.2.tgz#3f04dfccc7eadcbf1d9de9f204ea65dc2bc80156"
-  integrity sha512-tlvf/nKD4XDpyR2a00ayi4lnRunGC51w+zVRNz9ixzOZKqnZJg8iA01Q/nikzgPBddTrtVec6p7tnUsqIPVskw==
+"@atleta-chain/router-sdk@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@atleta-chain/router-sdk/-/router-sdk-1.9.3.tgz#16bf71c7e404b22cfbe94aef92b1dee9eed515f3"
+  integrity sha512-Qj2uaMsChjLSVF1TXoIR2HpVN1viNtwq7KF8PYca5EJnTh/BYVy/y1iMxntlIN7LXGRxCskvDfO7M4su3s2PoQ==
   dependencies:
-    "@atleta-chain/sdk-core" "^4.2.7"
+    "@atleta-chain/sdk-core" "^4.2.8"
     "@atleta-chain/swap-router-contracts" "^1.3.3"
-    "@atleta-chain/v2-sdk" "^4.3.4"
-    "@atleta-chain/v3-sdk" "^3.11.12"
+    "@atleta-chain/v2-sdk" "^4.3.5"
+    "@atleta-chain/v3-sdk" "^3.11.13"
     "@ethersproject/abi" "^5.5.0"
 
 "@atleta-chain/sdk-core@^4.2.0", "@atleta-chain/sdk-core@^4.2.1":
@@ -57,10 +57,10 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@atleta-chain/sdk-core@^4.2.7":
-  version "4.2.7"
-  resolved "https://registry.yarnpkg.com/@atleta-chain/sdk-core/-/sdk-core-4.2.7.tgz#70150fad39181c51a4e4aeba4b4b6da58b6bdf68"
-  integrity sha512-5U6GMsF7qhCkyfYW3rTA9cuAgngoX0DV4SR9WNOdpQ7XlHQLIUC4ENvA2tnx8pnMZIIKjUOX3f2s+P7EFPtdmQ==
+"@atleta-chain/sdk-core@^4.2.8":
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/@atleta-chain/sdk-core/-/sdk-core-4.2.8.tgz#cefbf552b2af727b335ae863df5926c801165753"
+  integrity sha512-Ns0uEN99OynznLzgppLvYXLd3n3AYrgiS2ifCl/BoZUmGgN39F5I1eKN1mLwJuEcSZo5D+csxfE0xX2klU5fFw==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -107,12 +107,12 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@atleta-chain/v2-sdk@^4.3.4":
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/@atleta-chain/v2-sdk/-/v2-sdk-4.3.4.tgz#271561ddbbe028fa04db711cd8e49397c87b6c5a"
-  integrity sha512-KyVejoRAvxIjqoMpzyF5a25eSR7wg7lcTGcNww1AIP1nJan0cWoU0/UMPYSVMriCTyVNkDENbT9O7DWME5unPA==
+"@atleta-chain/v2-sdk@^4.3.5":
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/@atleta-chain/v2-sdk/-/v2-sdk-4.3.5.tgz#eb4e25eedca75f3744d81a78016b19844ee2558e"
+  integrity sha512-IUB4B3X+k9mYrp9kqTgqTF47GSUt0ghc0IKnpKc44JnqcVuFe09+8rrBFLsWAs/Ek7g3K7hCIh2Y8LsbtzGDTA==
   dependencies:
-    "@atleta-chain/sdk-core" "^4.2.7"
+    "@atleta-chain/sdk-core" "^4.2.8"
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
     tiny-invariant "^1.1.0"
@@ -134,12 +134,12 @@
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     base64-sol "1.0.1"
 
-"@atleta-chain/v3-sdk@^3.11.12":
-  version "3.11.12"
-  resolved "https://registry.yarnpkg.com/@atleta-chain/v3-sdk/-/v3-sdk-3.11.12.tgz#c59c41519db59f71bfb83f916c8c5035de2a56bf"
-  integrity sha512-J7gW/L5r80HQg1AFii5cQQPEAgz/qRbWs1H5ml2bZOA2cta9TwKchywkYv97aWUp1vokabzfX/xfW+sEBu5xcg==
+"@atleta-chain/v3-sdk@^3.11.13":
+  version "3.11.13"
+  resolved "https://registry.yarnpkg.com/@atleta-chain/v3-sdk/-/v3-sdk-3.11.13.tgz#a3df8ac28d18e97dc61b7aa801e2c0971a165ae5"
+  integrity sha512-AAQk0K9n5Y6/pQ/FMFMmZqNKJVlSn7p34WiH7cVGzl6ZueoQBgpUi5t216Tcx5gM5FxtpYdtnKl8TL0kqF1PoQ==
   dependencies:
-    "@atleta-chain/sdk-core" "^4.2.7"
+    "@atleta-chain/sdk-core" "^4.2.8"
     "@atleta-chain/swap-router-contracts" "^1.2.1"
     "@atleta-chain/v3-periphery" "^1.1.1"
     "@atleta-chain/v3-staker" "1.0.2"
