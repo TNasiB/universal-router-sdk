@@ -15,6 +15,11 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     creationBlock: 17143817,
   },
+  [2340]: {
+    router: '0x0000000000000000000000000000000000000000',
+    weth: '0xe26fea44C00802b9cAe594974c0a6CBCAd5fd863',
+    creationBlock: 1,
+  },
   // goerli
   [5]: {
     router: '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD',
