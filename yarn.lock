@@ -34,14 +34,14 @@
     "@atleta-chain/v3-sdk" "^3.11.4"
     "@ethersproject/abi" "^5.5.0"
 
-"@atleta-chain/router-sdk@^1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@atleta-chain/router-sdk/-/router-sdk-1.9.4.tgz#927b2900cea39e9dd0bccd7ce3c46d1ee4e44409"
-  integrity sha512-cBOcrA00TrFfhUikSAhY3lyRVG9Mjh6t7hIuRQbUEeC3Y1TEKa/503dE65c/YzSgCOg2ZNr0daQofDCLLchMYQ==
+"@atleta-chain/router-sdk@^1.9.5":
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/@atleta-chain/router-sdk/-/router-sdk-1.9.5.tgz#ed9a9d99723668b83b125dd7f820e502b00a2677"
+  integrity sha512-/0UFlMXza0ZAfitSgYH23uWAiR1H/gLQahujvwXydpCBaJcFB0312XA76XAE5bS6+gooSs72uwW7N7xxseFI2w==
   dependencies:
     "@atleta-chain/sdk-core" "^4.2.12"
     "@atleta-chain/swap-router-contracts" "^1.3.3"
-    "@atleta-chain/v2-sdk" "^4.3.6"
+    "@atleta-chain/v2-sdk" "^4.3.7"
     "@atleta-chain/v3-sdk" "^3.11.16"
     "@ethersproject/abi" "^5.5.0"
 
@@ -57,7 +57,7 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@atleta-chain/sdk-core@^4.2.11", "@atleta-chain/sdk-core@^4.2.12":
+"@atleta-chain/sdk-core@^4.2.12":
   version "4.2.12"
   resolved "https://registry.yarnpkg.com/@atleta-chain/sdk-core/-/sdk-core-4.2.12.tgz#b9ff1b39686a1aba50482045f591952cac006224"
   integrity sha512-h1RQVPaFpYOU+bk2NM8NQ2ImXQmdKj/j5p+66z5TYd8UbRBs3GW1nlHjXZRc7NXNSfMKWK+hpxNvDwKcMIJdRg==
@@ -107,12 +107,12 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@atleta-chain/v2-sdk@^4.3.6":
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/@atleta-chain/v2-sdk/-/v2-sdk-4.3.6.tgz#326bde69112594e3d782d1c21b63560b96568677"
-  integrity sha512-OApLlLsc+gxZXgZCdlDsWxqMIyNtUugNIRSnkYvWQrT8DJBvpasN6oy7IP+gkiPHWijB1LsdZEfH0iq+SXwDwg==
+"@atleta-chain/v2-sdk@^4.3.7":
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/@atleta-chain/v2-sdk/-/v2-sdk-4.3.7.tgz#6ff84e2bbd65839ced677fc65f93742bec9a6769"
+  integrity sha512-CpWi4WelBm0TpNPzP5Qutm50oRRKFYpAEVqM8EzZJ/0OKRV3BEoM96RwiiIAjAsQUgc7gdSzAfSTb9iVQ8hp4g==
   dependencies:
-    "@atleta-chain/sdk-core" "^4.2.11"
+    "@atleta-chain/sdk-core" "^4.2.12"
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
     tiny-invariant "^1.1.0"
