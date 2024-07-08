@@ -23,21 +23,21 @@
     ethers "^5.3.1"
     tiny-invariant "^1.3.1"
 
-"@atleta-chain/router-sdk@^1.9.1", "@atleta-chain/router-sdk@^1.9.10":
-  version "1.9.10"
-  resolved "https://registry.npmjs.org/@atleta-chain/router-sdk/-/router-sdk-1.9.10.tgz"
-  integrity sha512-8fmY8l70RnxQQ//UBbcZc0lU47dOOUj5rSfdnfwLO6Xq8hBEqR828DwMZ4b86FJtYwWiSOpCIG28DhVmgDT94g==
+"@atleta-chain/router-sdk@^1.9.1", "@atleta-chain/router-sdk@^1.9.12":
+  version "1.9.12"
+  resolved "https://registry.npmjs.org/@atleta-chain/router-sdk/-/router-sdk-1.9.12.tgz"
+  integrity sha512-+UZcLyUGfWvoSMPLCaoA5QjSoyCNPxHKYZ9B1SoZ03yNwpkKg1dSpqaja9qNQFAuRUGUFle9nGKEvn40gh2aZg==
   dependencies:
-    "@atleta-chain/sdk-core" "^4.2.19"
+    "@atleta-chain/sdk-core" "^4.2.21"
     "@atleta-chain/swap-router-contracts" "^1.3.3"
-    "@atleta-chain/v2-sdk" "^4.3.15"
-    "@atleta-chain/v3-sdk" "^3.11.18"
+    "@atleta-chain/v2-sdk" "^4.3.17"
+    "@atleta-chain/v3-sdk" "^3.11.20"
     "@ethersproject/abi" "^5.5.0"
 
-"@atleta-chain/sdk-core@^4.2.19", "@atleta-chain/sdk-core@^4.2.20":
-  version "4.2.20"
-  resolved "https://registry.npmjs.org/@atleta-chain/sdk-core/-/sdk-core-4.2.20.tgz"
-  integrity sha512-TXVrQw2h6GSPo1NEwIrvBYtXFsKr5soIhubroTwMGt9C+wsRrpAZPnzEaiiPvmrjipg7Ueoj4DqyR1MYZt3M/g==
+"@atleta-chain/sdk-core@^4.2.21":
+  version "4.2.21"
+  resolved "https://registry.npmjs.org/@atleta-chain/sdk-core/-/sdk-core-4.2.21.tgz"
+  integrity sha512-9pje+kHf8m9ABtp36fJXU11a8q0aAUryRtRHZ7jBQDct9obBu53rQXewseuTsBgZI7mDIP+LZRUC1Fd6TuBcEA==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -73,12 +73,12 @@
   resolved "https://registry.npmjs.org/@atleta-chain/v2-core/-/v2-core-1.0.1.tgz"
   integrity sha512-bGn2Dd9fUJscyx4CiL66y93SaFYVaRlbpa9f36JUmfnz9Koi4RnEPSj9yYWJdyQgYxdw8KxVCqzhzy7fTUjwlQ==
 
-"@atleta-chain/v2-sdk@^4.3.15", "@atleta-chain/v2-sdk@^4.3.16":
-  version "4.3.16"
-  resolved "https://registry.npmjs.org/@atleta-chain/v2-sdk/-/v2-sdk-4.3.16.tgz"
-  integrity sha512-/y+CGYuIoh+afB4X/R5V9x+k7OWVTobFy4LhkM9cXAED/Dg87sI53bMg4Ye+I7Y9DFG+FtnV9pryUiOG8fFIdQ==
+"@atleta-chain/v2-sdk@^4.3.17":
+  version "4.3.17"
+  resolved "https://registry.npmjs.org/@atleta-chain/v2-sdk/-/v2-sdk-4.3.17.tgz"
+  integrity sha512-CFDy9mcG362219/sb96TXenNFL86cWxUTep8rDtmQoAHORXPiDpAmuvX4AJYviJ32oYdWHExllwjE7oncbEEyQ==
   dependencies:
-    "@atleta-chain/sdk-core" "^4.2.20"
+    "@atleta-chain/sdk-core" "^4.2.21"
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
     tiny-invariant "^1.1.0"
@@ -100,12 +100,12 @@
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     base64-sol "1.0.1"
 
-"@atleta-chain/v3-sdk@^3.11.18", "@atleta-chain/v3-sdk@^3.11.19":
-  version "3.11.19"
-  resolved "https://registry.npmjs.org/@atleta-chain/v3-sdk/-/v3-sdk-3.11.19.tgz"
-  integrity sha512-kIDzPHXCSOoBFkenyYenU+jzUb2ZtXc6O9KyH+cEY0k9ogO4L7GWYvqSU7LTNII0XoYlvjwNp77R5AuedayHfg==
+"@atleta-chain/v3-sdk@^3.11.20":
+  version "3.11.20"
+  resolved "https://registry.npmjs.org/@atleta-chain/v3-sdk/-/v3-sdk-3.11.20.tgz"
+  integrity sha512-5fp34WgP2N0fj0bLTPitvcQHhuXoQ97uJxR2UxCf0ZfDyhsx9TXQK8cWQYSYhHZhGqrgL/NWRbEYO+CiM13+5w==
   dependencies:
-    "@atleta-chain/sdk-core" "^4.2.20"
+    "@atleta-chain/sdk-core" "^4.2.21"
     "@atleta-chain/swap-router-contracts" "^1.2.1"
     "@atleta-chain/v3-periphery" "^1.1.1"
     "@atleta-chain/v3-staker" "1.0.2"
