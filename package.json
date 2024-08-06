@@ -1,6 +1,6 @@
 {
   "name": "@atleta-chain/universal-router-sdk",
-  "version": "1.9.17",
+  "version": "1.9.18",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -50,11 +50,12 @@
   },
   "dependencies": {
     "@atleta-chain/permit2-sdk": "^1.2.0",
-    "@atleta-chain/router-sdk": "^1.9.13",
-    "@atleta-chain/sdk-core": "^4.2.22",
+    "@atleta-chain/router-sdk": "^1.9.15",
+    "@atleta-chain/sdk-core": "^4.2.23",
     "@atleta-chain/universal-router": "^1.6.4",
-    "@atleta-chain/v2-sdk": "^4.3.18",
-    "@atleta-chain/v3-sdk": "^3.11.21",
+    "@atleta-chain/universal-router-sdk": "^1.9.17",
+    "@atleta-chain/v2-sdk": "^4.3.19",
+    "@atleta-chain/v3-sdk": "^3.11.22",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },
